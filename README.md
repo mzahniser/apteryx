@@ -5,6 +5,7 @@ Apteryx is an action / puzzle game which requires both quick reflexes and strate
 Your path will often be blocked by force fields, which can only be destroyed by manipulating an enemy drone into crashing into the switch that controls the field. In the early game, this can be done simply by tricking the drone into crashing into the switch while chasing you. Later on, you will collect weapons such as the tractor beam and repulsor that can be used to move enemies around.
 
 
+
 ## Controls
 
 For now, the controls are hard-coded. They include:
@@ -25,7 +26,7 @@ For now, the controls are hard-coded. They include:
 
 **Z:** Tunnel up. If your hovercraft is over a square with an X on it, you will travel up to the previous level. Your hovercraft must be entirely within the square and must be stationary or moving slowly.
 
-**X:** Tunnel down:** If your hovercraft is over a hole in the ground, you will travel down into the next level. As with tunneling up, you must be centered on the hole and not moving too quickly.
+**X:** Tunnel down. If your hovercraft is over a hole in the ground, you will travel down into the next level. As with tunneling up, you must be centered on the hole and not moving too quickly.
 
 **Left Shift:** Fire your laser. Lasers (and all other weapons) travel in the direction that your hovercraft is moving in. Lasers use up energy, which must be replenished by picking up yellow canisters.
 
