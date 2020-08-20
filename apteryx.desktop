@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Apteryx
+Comment=A top-down puzzle/action/exploration game.
+Exec=apteryx
+Icon=apteryx
+Terminal=false
+X-MultipleArgs=false
+Type=Application
+Categories=Game;
+

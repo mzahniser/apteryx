@@ -1,0 +1,654 @@
+player
+	shields 10
+	energy 10
+end
+
+level 0
+	entities
+		radar 3.5 6.5
+		fusion 4 13
+		fusion 4.8 13
+		laser 5.6 13
+		laser 6.4 13
+		laser 7.2 13
+		mine 4 14
+		mine 4.8 14
+		afterburner 5.6 14
+		cloak 6.4 14
+		empBurst 7.2 14
+		emp 4 15
+		emp 4.8 15
+		emp 5.6 15
+		emp 6.4 15
+		emp 7.2 15
+		tractor 12.5 24.5
+		repulsor 56.5 31.5
+		energyFull 35.5 8.5
+		hunter 39.5 4.5
+		shieldFull 50.5 6.5
+		droneRed 54.5 16.5
+		droneRed 62.5 16.5
+		droneRed 40.5 23.5
+		droneRed 42.5 22.5
+		droneRed 43.5 24.5
+		droneRed 45.5 23.5
+		droneRed 45.5 25.5
+		droneRed 24.5 26.5
+		energyFull 16.5 37.5
+		droneRed 6.5 35.5
+		energyFull 36.5 28.5
+		virus 18.5 37.5
+		droneRed 26.5 34.5
+		droneYellow 34.5 53.5
+		droneYellow 47.5 53.5
+		droneYellow 55.5 49.5
+		droneRed 47.5 61.5
+		droneRed 50.5 50.5
+		droneRed 62.5 39.5
+		droneRed 58.5 40.5
+		droneRed 56.5 38.5
+		shieldFull 43.5 57.5
+		shieldFull 48.5 47.5
+		energyFull 47.5 47.5
+	end
+end
+
+level 1
+	entities
+		player 3.5 3.5
+		radar 3.5 6.5
+		droneRed 29.5 10.5
+		droneRed 34.5 9.5
+		shieldSmall 27.5 9.5
+		shieldSmall 27.5 10.5
+		shieldSmall 27.5 11.5
+		droneRed 38.5 21.5
+		laser 47.5 8.5
+		energySmall 47.5 9.5
+		droneRed 3.5 33.5
+		droneRed 3.5 44.5
+		shieldSmall 5.5 44.5
+		emp 5.5 45.5
+		emp 35.5 59.5
+		shieldSmall 35.5 60.5
+		droneRed 36.5 44.5
+		droneRed 30.5 44.5
+		droneRed 29.5 48.5
+		droneRed 37.5 50.5
+		droneRed 33.5 54.5
+		droneRed 44.5 30.5
+		shieldFull 43.5 29.5
+		droneRed 20.5 48.5
+		droneRed 15.5 59.5
+		droneYellow 48.5 57.5
+		droneYellow 48.5 59.5
+		droneBlue 58.5 11.5
+		laser 61.5 7.5
+		energySmall 61.5 8.5
+		energySmall 61.5 9.5
+		tractor 57.5 5.5
+		mine 58.5 5.5
+		shieldFull 59.5 15.5
+		energySmall 59.5 14.5
+		mine 61.5 10.5
+	end
+end
+
+level 2
+	entities
+		droneYellow 10.5 38.5
+		droneRed 18.5 61.5
+		droneRed 18.5 57.5
+		droneRed 18.5 52.5
+		droneRed 18.5 48.5
+		afterburner 25.5 60.5
+		energySmall 26.5 60.5
+		energySmall 25.5 61.5
+		shieldSmall 26.5 61.5
+		droneRed 22.5 49.5
+		droneYellow 29.5 49.5
+		droneYellow 34.5 51.5
+		droneYellow 37.5 49.5
+		droneYellow 38.5 60.5
+		droneRed 25.5 39.5
+		mine 42.5 56.5
+		virus 43.5 56.5
+		droneYellow 47.5 44.5
+		shieldSmall 42.5 52.5
+		shieldSmall 43.5 52.5
+		energySmall 42.5 42.5
+		energySmall 43.5 42.5
+		laser 42.5 43.5
+		droneYellow 54.5 50.5
+		droneYellow 60.5 45.5
+		droneRed 56.5 47.5
+		droneRed 57.5 44.5
+		droneRed 61.5 51.5
+		shieldFull 54.5 41.5
+		emp 60.5 41.5
+		emp 61.5 41.5
+		energyFull 55.5 41.5
+		droneGreen 36.5 35.5
+		shieldSmall 57.5 32.5
+		shieldSmall 58.5 32.5
+		shieldSmall 52.5 32.5
+		shieldSmall 46.5 32.5
+		droneRed 45.5 32.5
+		droneYellow 51.5 32.5
+		droneGreen 55.5 20.5
+		droneGreen 48.5 17.5
+		droneGreen 49.5 12.5
+		droneGreen 55.5 8.5
+		droneGreen 57.5 12.5
+		droneBlue 10.5 9.5
+		energyFull 28.5 13.5
+		energyFull 29.5 14.5
+		shieldFull 28.5 14.5
+		shieldFull 29.5 13.5
+		repulsor 41.5 14.5
+		droneRed 18.5 4.5
+		droneRed 23.5 3.5
+		droneRed 28.5 3.5
+		droneRed 34.5 3.5
+		droneRed 18.5 9.5
+		droneRed 18.5 17.5
+		droneRed 19.5 23.5
+		droneRed 26.5 23.5
+		droneRed 32.5 24.5
+	end
+end
+
+level 3
+	entities
+		droneRed 40.5 29.5
+		droneRed 32.5 29.5
+		droneRed 39.5 25.5
+		droneRed 33.5 25.5
+		droneYellow 56.5 32.5
+		droneYellow 55.5 38.5
+		droneYellow 46.5 39.5
+		droneGreen 45.5 35.5
+		droneGreen 53.5 40.5
+		droneGreen 59.5 34.5
+		droneRed 49.5 42.5
+		droneRed 55.5 41.5
+		droneRed 45.5 30.5
+		fusion 40.5 30.5
+		mine 32.5 30.5
+		energySmall 33.5 21.5
+		energySmall 33.5 22.5
+		shieldSmall 39.5 21.5
+		shieldSmall 39.5 22.5
+		laser 61.5 26.5
+		droneBlue 60.5 26.5
+		energySmall 59.5 25.5
+		shieldSmall 61.5 25.5
+		virus 62.5 22.5
+		emp 58.5 22.5
+		droneYellow 52.5 3.5
+		droneRed 53.5 1.5
+		shieldSmall 45.5 2.5
+		shieldSmall 48.5 2.5
+		energySmall 46.5 2.5
+		energySmall 47.5 2.5
+		droneBlue 14.5 33.5
+		droneYellow 17.5 33.5
+		droneYellow 17.5 23.5
+		droneYellow 20.5 28.5
+		droneRed 13.5 22.5
+		droneRed 11.5 25.5
+		droneRed 16.5 35.5
+		droneGreen 12.5 31.5
+		droneGreen 15.5 23.5
+		droneBlue 15.5 12.5
+		droneBlue 9.5 12.5
+		emp 12.5 15.5
+		energySmall 10.5 15.5
+		shieldSmall 14.5 15.5
+		droneGreen 3.5 14.5
+		mine 32.5 44.5
+		droneYellow 26.5 58.5
+		droneYellow 31.5 61.5
+		droneYellow 26.5 61.5
+		droneYellow 31.5 58.5
+		virus 3.5 37.5
+		droneRed 3.5 45.5
+		droneBlue 2.5 61.5
+		droneGreen 2.5 58.5
+		fusion 7.5 59.5
+		mine 6.5 59.5
+		droneYellow 21.5 58.5
+		droneYellow 21.5 61.5
+		droneYellow 39.5 38.5
+		droneYellow 43.5 60.5
+		droneYellow 45.5 54.5
+		droneYellow 54.5 47.5
+		droneYellow 57.5 58.5
+	end
+end
+
+level 4
+	entities
+		droneRed 54.5 50.5
+		droneRed 46.5 31.5
+		droneRed 49.5 27.5
+		energySmall 43.5 47.5
+		energySmall 43.5 48.5
+		tractor 43.5 45.5
+		energyGenerator 43.5 50.5
+		hexagon 46.5 20.5
+		shieldSmall 48.5 20.5
+		shieldSmall 49.5 20.5
+		shieldGenerator 51.5 20.5
+		droneRed 38.5 3.5
+		droneRed 36.5 6.5
+		droneRed 30.5 2.5
+		droneRed 27.5 3.5
+		droneRed 21.5 7.5
+		droneRed 19.5 5.5
+		droneRed 15.5 2.5
+		droneRed 13.5 6.5
+		droneRed 14.5 12.5
+		droneRed 18.5 14.5
+		droneRed 21.5 11.5
+		droneRed 26.5 12.5
+		droneRed 31.5 15.5
+		droneRed 32.5 12.5
+		cloak 6.5 6.5
+		energyFull 6.5 11.5
+		shieldSmall 2.5 4.5
+		shieldSmall 2.5 7.5
+		shieldSmall 2.5 10.5
+		shieldSmall 2.5 13.5
+		droneBlue 54.5 3.5
+		droneBlue 60.5 9.5
+		droneBlue 52.5 4.5
+		droneBlue 59.5 11.5
+	end
+end
+
+level 5
+	entities
+		droneGreen 5.5 31.5
+		droneGreen 13.5 41.5
+		droneGreen 4.5 41.5
+		laser 9.5 47.5
+		fusion 8.5 47.5
+		energySmall 10.5 47.5
+		energySmall 7.5 47.5
+		droneGreen 23.5 57.5
+		droneBlue 42.5 30.5
+		droneBlue 52.5 28.5
+		droneBlue 52.5 33.5
+		droneBlue 52.5 36.5
+		droneBlue 52.5 41.5
+		droneBlue 46.5 42.5
+		droneBlue 46.5 47.5
+		shieldSmall 55.5 29.5
+		shieldSmall 55.5 32.5
+		shieldSmall 55.5 37.5
+		shieldSmall 55.5 40.5
+		shieldSmall 49.5 43.5
+		shieldSmall 49.5 46.5
+		shieldSmall 24.5 28.5
+		droneYellow 34.5 18.5
+		droneYellow 36.5 10.5
+		droneYellow 40.5 6.5
+		droneYellow 47.5 8.5
+		droneYellow 51.5 11.5
+		droneYellow 49.5 16.5
+		droneYellow 46.5 21.5
+		droneYellow 40.5 19.5
+		empBurst 28.5 6.5
+		hexagon 28.5 7.5
+		energySmall 29.5 6.5
+		energySmall 29.5 7.5
+		droneYellow 16.5 4.5
+		droneYellow 16.5 10.5
+		droneYellow 19.5 7.5
+		droneYellow 18.5 5.5
+		droneYellow 14.5 5.5
+		droneYellow 13.5 7.5
+		droneYellow 14.5 9.5
+		droneYellow 18.5 9.5
+		repulsor 3.5 6.5
+		afterburner 3.5 7.5
+		fusion 4.5 6.5
+		virus 4.5 7.5
+		droneYellow 27.5 15.5
+		droneYellow 27.5 20.5
+		droneYellow 29.5 17.5
+		laser 29.5 16.5
+		shieldFull 29.5 18.5
+		droneBlue 20.5 16.5
+		droneRed 23.5 48.5
+		droneRed 19.5 47.5
+		energySmall 20.5 44.5
+		energySmall 22.5 44.5
+		shieldSmall 21.5 44.5
+		droneYellow 58.5 2.5
+		droneYellow 61.5 11.5
+		droneYellow 58.5 21.5
+		droneYellow 60.5 29.5
+		droneYellow 59.5 39.5
+	end
+end
+
+level 6
+	entities
+		droneGreen 4.5 13.5
+		droneGreen 4.5 8.5
+		droneGreen 4.5 22.5
+		droneGreen 4.5 27.5
+		droneGreen 4.5 36.5
+		droneGreen 4.5 41.5
+		droneRed 9.5 48.5
+		droneRed 7.5 47.5
+		droneRed 4.5 47.5
+		droneRed 2.5 47.5
+		droneRed 2.5 50.5
+		droneRed 2.5 56.5
+		droneRed 2.5 59.5
+		droneRed 2.5 61.5
+		droneRed 4.5 61.5
+		droneRed 9.5 61.5
+		laser 8.5 52.5
+		cloak 8.5 53.5
+		energySmall 7.5 52.5
+		energySmall 7.5 53.5
+		droneRed 47.5 54.5
+		droneRed 47.5 51.5
+		droneYellow 58.5 4.5
+		droneYellow 24.5 5.5
+		droneYellow 24.5 13.5
+		droneYellow 28.5 12.5
+		droneYellow 24.5 20.5
+		droneYellow 32.5 24.5
+		droneYellow 29.5 41.5
+		droneYellow 32.5 40.5
+		droneYellow 36.5 32.5
+		droneYellow 32.5 37.5
+		droneYellow 56.5 37.5
+		droneYellow 44.5 13.5
+		shieldFull 61.5 40.5
+		energySmall 4.5 10.5
+		energySmall 33.5 16.5
+		energySmall 4.5 25.5
+		energySmall 33.5 9.5
+		energySmall 53.5 24.5
+		energySmall 4.5 11.5
+		energySmall 61.5 28.5
+		energySmall 4.5 38.5
+		energySmall 4.5 39.5
+		energySmall 4.5 24.5
+		energySmall 41.5 16.5
+		energySmall 40.5 20.5
+		energySmall 41.5 24.5
+	end
+end
+
+level 7
+	entities
+		energySmall 16.5 44.5
+		energySmall 17.5 44.5
+		energySmall 16.5 5.5
+		energySmall 17.5 5.5
+		droneBlue 33.5 58.5
+		droneBlue 28.5 57.5
+		droneBlue 49.5 48.5
+		droneBlue 48.5 61.5
+		droneBlue 36.5 61.5
+		droneBlue 25.5 53.5
+		droneBlue 7.5 38.5
+		droneBlue 9.5 25.5
+		droneBlue 9.5 11.5
+		droneYellow 50.5 20.5
+		droneYellow 60.5 16.5
+		energySmall 59.5 3.5
+		energySmall 61.5 3.5
+		shieldSmall 61.5 2.5
+		shieldSmall 59.5 2.5
+		emp 60.5 2.5
+		mine 60.5 3.5
+		droneRed 52.5 2.5
+		droneYellow 50.5 3.5
+		droneBlue 52.5 5.5
+		shieldSmall 40.5 56.5
+		shieldSmall 45.5 56.5
+		shieldSmall 40.5 53.5
+		shieldSmall 45.5 53.5
+		laser 3.5 51.5
+		mine 3.5 54.5
+		emp 3.5 58.5
+		laser 45.5 4.5
+		fusion 42.5 1.5
+		energyFull 43.5 1.5
+		shieldFull 45.5 3.5
+		droneRed 24.5 10.5
+		droneRed 27.5 11.5
+		droneRed 27.5 23.5
+		droneRed 26.5 26.5
+		droneRed 24.5 38.5
+		droneRed 27.5 39.5
+		droneRed 38.5 39.5
+		droneRed 42.5 32.5
+		droneRed 39.5 28.5
+		droneRed 44.5 20.5
+		droneRed 41.5 16.5
+		droneRed 35.5 9.5
+		droneRed 31.5 10.5
+		hexagon 42.5 4.5
+		shieldSmall 20.5 58.5
+		shieldSmall 25.5 58.5
+	end
+end
+
+level 8
+	entities
+		droneBlue 31.5 17.5
+		droneBlue 31.5 21.5
+		droneBlue 30.5 19.5
+		energySmall 62.5 7.5
+		energySmall 62.5 9.5
+		energySmall 62.5 18.5
+		energySmall 62.5 20.5
+		energySmall 62.5 29.5
+		energySmall 62.5 31.5
+		droneBlue 22.5 19.5
+		energySmall 8.5 39.5
+		energySmall 10.5 39.5
+		droneYellow 14.5 51.5
+		droneYellow 14.5 56.5
+		droneYellow 15.5 60.5
+		droneYellow 35.5 56.5
+		droneYellow 35.5 51.5
+		droneYellow 35.5 46.5
+		droneYellow 35.5 40.5
+		droneYellow 59.5 39.5
+		droneYellow 50.5 58.5
+		energyFull 51.5 61.5
+		mine 52.5 61.5
+		droneRed 7.5 35.5
+		droneRed 11.5 35.5
+		droneRed 14.5 35.5
+		droneRed 25.5 27.5
+		droneRed 30.5 30.5
+		droneRed 30.5 40.5
+		droneRed 24.5 45.5
+		droneRed 28.5 45.5
+		droneRed 24.5 51.5
+		droneRed 28.5 51.5
+		mine 26.5 55.5
+		mine 25.5 56.5
+		mine 27.5 56.5
+		energySmall 25.5 55.5
+		energySmall 26.5 56.5
+		energySmall 27.5 55.5
+		shieldSmall 26.5 54.5
+		droneGreen 8.5 44.5
+		droneGreen 8.5 47.5
+		droneGreen 15.5 44.5
+		droneGreen 15.5 47.5
+		droneGreen 1.5 35.5
+		droneGreen 4.5 35.5
+		virus 26.5 57.5
+	end
+end
+
+level 9
+	entities
+		shieldSmall 8.5 23.5
+		shieldSmall 5.5 26.5
+		shieldSmall 14.5 35.5
+		shieldSmall 17.5 32.5
+		energySmall 17.5 26.5
+		energySmall 14.5 23.5
+		energySmall 5.5 32.5
+		energySmall 8.5 35.5
+		laser 5.5 35.5
+		mine 17.5 23.5
+		emp 17.5 35.5
+		emp 5.5 23.5
+		droneYellow 21.5 2.5
+		droneRed 22.5 8.5
+		droneGreen 10.5 10.5
+		droneBlue 8.5 3.5
+		droneBlue 15.5 27.5
+		droneYellow 9.5 25.5
+		droneGreen 6.5 34.5
+		droneRed 16.5 36.5
+		shieldSmall 49.5 61.5
+		droneGrey 13.5 56.5
+		droneGreen 51.5 26.5
+		droneGreen 56.5 29.5
+		droneGreen 58.5 32.5
+		droneGreen 53.5 35.5
+		droneGreen 48.5 36.5
+		droneGreen 47.5 30.5
+		shieldFull 47.5 25.5
+		energySmall 48.5 25.5
+		energySmall 47.5 26.5
+		energySmall 36.5 43.5
+		energySmall 37.5 44.5
+		mine 37.5 43.5
+		mine 36.5 44.5
+		droneBlue 61.5 51.5
+		droneBlue 58.5 49.5
+		shieldSmall 32.5 34.5
+		shieldSmall 32.5 35.5
+		emp 33.5 34.5
+		emp 33.5 35.5
+		droneRed 52.5 16.5
+		droneYellow 55.5 12.5
+		droneGreen 58.5 12.5
+		droneBlue 57.5 4.5
+		droneYellow 44.5 6.5
+		droneRed 33.5 14.5
+		droneRed 32.5 10.5
+		droneRed 32.5 19.5
+		energySmall 19.5 54.5
+		energySmall 23.5 56.5
+		energySmall 50.5 55.5
+		droneGrey 11.5 34.5
+	end
+end
+
+level 10
+	entities
+		energyGenerator 29.5 1.5
+		shieldGenerator 34.5 1.5
+		cloak 31.5 1.5
+		empBurst 32.5 1.5
+		droneGrey 34.5 6.5
+		energyFull 30.5 1.5
+		shieldFull 33.5 1.5
+		droneYellow 49.5 7.5
+		droneYellow 49.5 14.5
+		droneYellow 45.5 10.5
+		droneGrey 55.5 35.5
+		droneGrey 55.5 40.5
+		droneGrey 38.5 35.5
+		droneGrey 38.5 40.5
+		droneGreen 39.5 49.5
+		droneGreen 44.5 51.5
+		droneGreen 47.5 48.5
+		droneGreen 50.5 51.5
+		droneGreen 56.5 53.5
+		droneGreen 24.5 62.5
+		droneGreen 19.5 60.5
+		droneGreen 25.5 53.5
+		droneYellow 38.5 29.5
+		droneYellow 44.5 29.5
+		droneYellow 49.5 29.5
+		droneYellow 55.5 29.5
+		droneGreen 12.5 25.5
+		droneGreen 12.5 29.5
+		droneGreen 12.5 34.5
+		droneGreen 12.5 38.5
+		droneGreen 12.5 42.5
+		shieldSmall 3.5 28.5
+		shieldSmall 3.5 30.5
+		shieldSmall 3.5 32.5
+		shieldSmall 3.5 34.5
+		energySmall 5.5 20.5
+		energySmall 5.5 21.5
+		droneBlue 1.5 1.5
+		droneBlue 6.5 1.5
+		droneBlue 6.5 16.5
+		droneBlue 1.5 16.5
+		droneYellow 26.5 19.5
+		droneRed 29.5 16.5
+		droneGreen 26.5 16.5
+		droneBlue 16.5 18.5
+		droneYellow 14.5 46.5
+		droneYellow 4.5 46.5
+		droneRed 52.5 17.5
+		droneRed 54.5 20.5
+		droneRed 44.5 15.5
+		droneRed 44.5 3.5
+		droneRed 39.5 8.5
+		shieldFull 58.5 5.5
+		energyFull 58.5 6.5
+		hexagon 19.5 3.5
+		fusion 20.5 3.5
+		emp 19.5 13.5
+		emp 20.5 13.5
+	end
+end
+
+level 11
+	entities
+		shieldFull 10.5 8.5
+		energyFull 10.5 9.5
+		droneGrey 14.5 15.5
+		droneGrey 6.5 13.5
+		droneGrey 7.5 25.5
+		emp 16.5 18.5
+		emp 16.5 19.5
+		energyFull 16.5 45.5
+		virus 16.5 46.5
+		droneGrey 12.5 44.5
+		droneGrey 12.5 45.5
+		droneGrey 12.5 46.5
+		droneGrey 12.5 47.5
+		hexagon 3.5 56.5
+		emp 3.5 58.5
+		energyFull 3.5 60.5
+		droneGrey 11.5 57.5
+		droneGrey 7.5 58.5
+		droneGrey 9.5 55.5
+		energySmall 36.5 2.5
+		energySmall 37.5 2.5
+		droneGrey 34.5 44.5
+		droneGrey 27.5 23.5
+		droneGrey 31.5 19.5
+		droneGrey 29.5 27.5
+		droneGrey 35.5 29.5
+		shieldFull 37.5 51.5
+		energyFull 38.5 52.5
+		emp 37.5 52.5
+		emp 38.5 51.5
+		droneGrey 53.5 29.5
+	end
+end
+

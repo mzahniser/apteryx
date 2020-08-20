@@ -1,0 +1,93 @@
+import os, shutil, sys
+env = Environment()
+
+
+
+# Get the package name.
+svn_version = os.popen('svnversion ..').read()[:-1]
+package = 'apteryx_0.1.%s_amd64.deb' % (svn_version)
+# "scons debian" means to build this package:
+env.Alias("debian", package)
+
+
+
+# Copy the executable.
+bin_src = "../apteryx"
+bin_dest = "apteryx/usr/bin/apteryx"
+installed_size = os.stat(bin_src)[6]
+env.Depends(package, bin_dest)
+env.Command(bin_dest, bin_src, Copy("$TARGET","$SOURCE"))
+
+
+
+# Copy the desktop entry.
+icon_src = "../apteryx.png"
+icon_dest = "apteryx/usr/share/pixmaps/apteryx.png"
+installed_size += os.stat(icon_src)[6]
+env.Depends(package, icon_dest)
+env.Command(icon_dest, icon_src, Copy("$TARGET","$SOURCE"))
+
+desktop_src = "../apteryx.desktop"
+desktop_dest = "apteryx/usr/share/applications/apteryx.desktop"
+installed_size += os.stat(desktop_src)[6]
+env.Depends(package, desktop_dest)
+env.Command(desktop_dest, desktop_src, Copy("$TARGET","$SOURCE"))
+
+
+
+# Copy the resources
+resources = Glob("../resources/*.png", strings=True) + Glob("../resources/*.txt", strings=True) + Glob("../resources/*.wav", strings=True)
+for f in resources:
+	dest = os.path.join("apteryx/usr/share/apteryx", os.path.basename(f))
+	env.Depends(package, dest)
+	env.Command(dest, f, Copy("$TARGET","$SOURCE"))
+	installed_size += os.stat(f)[6]
+
+
+
+# Generate the control file.
+template = """
+Package: apteryx
+Priority: extra
+Section: Games
+Installed-Size: %s
+Maintainer: Michael Zahniser <mzahniser@gmail.com>
+Architecture: amd64
+Version: 0.1.%s
+Depends: libc6, libsdl1.2debian, libsdl-image1.2
+Description: Apteryx exploration/puzzle/arcade game
+ .
+ Apteryx is a top-down view game where you explore a series of maze-like levels,
+ dodging hostile robots and collecting a wide range of weapons. You start out
+ completely unarmed - your only defense is to run away or to trick robots into
+ crashing into each other to destroy them. Most puzzles involve either finding a
+ way to get through a section alive, or opening doors by tricking robots into
+ crashing into the corresponding switches.
+ .
+ Each puzzle can be solved in a wide variety of ways. For example, you can use a
+ cloaking device to sneak past enemy robots, an afterburner to outrun them, a
+ repulsor to push them away, or an electromagnetic pulse to put them to sleep.
+"""
+
+control = "apteryx/DEBIAN/control"
+env.Depends(package, control)
+env.Depends(control, env.Value(svn_version))
+env.Depends(control, bin_src)
+
+# This function creates the control file from the template and info
+# specified above, and works out the final size of the package.
+def make_control(target=None, source=None, env=None):
+	# Convert from bytes to kilobytes.
+	control_info = template % (installed_size >> 10, svn_version)
+	f = open(str(target[0]), 'w')
+	f.write(control_info)
+	f.close()
+
+# We can generate the control file by calling make_control
+env.Command(control, None, make_control)
+
+
+
+# Generate the debian package.
+env.Command(package, None, "fakeroot dpkg-deb -b deb/apteryx %s" % ("$TARGET"))
+
